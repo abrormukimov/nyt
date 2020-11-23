@@ -104,7 +104,7 @@ body {
   width: 250px;
   position: absolute;
   right: 10px;
-  top: 95%;
+  top: 50%;
 }
 
 .aside img {
@@ -119,4 +119,25 @@ body {
 
 .div-aside {
 
+}
+
+.more-article-ctn {
+  width: 1100px;
+  margin: 15px auto;
+  height: 100px;
+  clear: both;
+}
+
+.more-article-left {
+  float: left;
+  height: 100px;
+  width: 800px;
+  background-color: rgb(148, 68, 68);
+}
+
+.more-article-right {
+  float: right;
+  width: 300px;
+  height: 100px;
+  background-color: slateblue;
 }
