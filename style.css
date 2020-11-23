@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  position: relative;
 }
 
 .head {
@@ -65,4 +66,57 @@ body {
 
 .article-title figure {
   width: 900px;
+}
+
+.section {
+  width: 600px;
+  margin: 0 auto;
+}
+
+.years {
+  float: left;
+}
+
+.icons {
+  float: right;
+}
+
+.article {
+  clear: both;
+  margin-top: 50px;
+}
+
+.article p {
+  font-size: 20px;
+}
+
+.article > span {
+  display: block;
+  text-align: center;
+}
+
+.article hr {
+  width: 100px;
+  margin: 10px auto;
+}
+
+.aside {
+  width: 250px;
+  position: absolute;
+  right: 10px;
+  top: 95%;
+}
+
+.aside img {
+  width: 50px;
+  height: 50px;
+}
+
+.img-aside {
+ float: left;
+ margin-right: 10px;
+}
+
+.div-aside {
+
 }
