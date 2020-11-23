@@ -4,6 +4,8 @@ body {
 
 .head {
   height: 50px;
-  width: 100px;
+  width: 100%;
   border: 1px solid black;
+  background-color: red;
 }
+
